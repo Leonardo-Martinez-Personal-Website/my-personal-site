@@ -1,0 +1,72 @@
+.flex-container-one {
+    display: flex;
+    color: white;
+    background-color: forestgreen;
+    padding: 20px 0;
+    justify-content: center;
+}
+
+.name {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* for links on all html files */
+.links {
+    display: flex;
+    justify-content: space-around;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* bio on about page */
+.bio {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* for social media links on all html files */
+.socials-container {
+    display: flex;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: forestgreen;
+    margin-top: 40px;
+    padding: 20px 0;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+
+/* about page */
+.hobbiesContainer {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.hobbies {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#aboutHeader {
+    text-align: center;
+}
+
+/* portfolio page */
+.projects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#portHeader {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
