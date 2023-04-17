@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Home Page</title>
+    <title>Contact Form</title>
 </head>
 <body>
     <!-- Name and links -->
@@ -21,15 +21,29 @@
         </header>
     </div>
 
-    <!-- Brief bio and maybe picture :/ -->
-    <div class="bio">
-        <h2>Musican, Gamer, and Fullstack Solutions Jr. Developer</h2>
-        <p>Determined to learn, practice, and improve on everything I learn about coding.</p>
-        <img src="/images/cool-cat.jpeg" width="200px" height="200px">
+    <div class="contactForm">
+        <form>
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+            <label for="subject">Subject</label>
+            <textarea id="subject" name="subject" placeholder="Write something.." style="height: 200px"></textarea>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Enter email..">
+
+            <br>
+
+            <input type="submit" value="Submit">
+            
+        </form>
     </div>
 
-    <!-- More links -->
-    <div class="socials-container">
+     <!-- More links -->
+     <div class="socials-container">
         <footer>
             <nav class="socials">
                 <a class="linkedin" href="https://www.linkedin.com/in/leonardoimartinez/" target="_blank">LinkedIn</a>
@@ -38,7 +52,5 @@
             </nav>
         </footer>
     </div>
-
-    <script src="javascript.js"></script>
 </body>
 </html>
